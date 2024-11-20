@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assest/css/styles.css">
+    <link rel="shortcut icon" href="./assest/img/N-icon.jpg">
+    <!-----------------------------------REMIXICON------------------------------------>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Welcome to Website </title>
+</head>
+<body>
+    <!------------------------------------HEADER--------------------------------------->
+    <header class="header" id="header">
+        <nav class="nav container">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Trang chủ</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Dịch vụ</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Dự án</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Thông tin liên hệ</a>
+                    </li>
+                </ul>
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+    <!--------------------------------------MAIN----------------------------------------->
+    <main class="main">
+        <!--------------------------------------MAIN----------------------------------------->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">
+                            Xin chào,<span>Tôi là</span>
+                        </h3>
+                        <h1 class="home__title">Nguyễn Phước Năng</h1>
+                        <p class="home__description">🎓 I'm a student at HCMUTE 🏫</p>
+                        <p class="home__description">Web cá nhân này là nơi tôi chia sẻ các dự án và thử nghiệm cá nhân của mình</p>
+                        <a href="#contact" class="button">Hãy liên hệ tôi</a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://github.com/" target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://stackoverflow.com/" target="_blank" class="home__social-link">
+                            <i class="ri-stack-overflow-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__image">
+                    <svg class="home__blod" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBlob" mask-type="alpha">
+                           <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                        </mask>
+                        <g mask="url(#maskBlob)">
+                           <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                     
+                           <rect x="37" width="476" height="630" fill="url(#pattern0)"/>
+                        </g>
+                     
+                        <rect x="37" width="476" height="300" fill="url(#pattern1)"/>
+                     
+                        <defs>
+                           <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                              <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+                           </pattern>
+                     
+                           <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                              <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
+                           </pattern>
+                     
+                           <!-- Insert your profile (recommended size: 640 x 940) -->
+                           <image class="home__img" id="imageBlob" width="640" height="925" href="./assest/img/avatar.jpeg"/>
+                        </defs>
+                     </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section">
+            <div class="skills__container container grid">
+                <div class="skills__data">
+                    <h3 class="section__subtitle">
+                        <span>Kỹ năng</span>
+                    </h3>
+                    <h2 class="section__title">
+                        Kỹ năng của tôi
+                    </h2>
+                    <p class="skills__description">
+                        Xem đầy đủ những kỹ năng tôi có và thực hiện,
+                        để phát triển các dự án cho bạn.
+                    </p>
+                    <a href="#projects" class="button">Xem dự án</a>
+                </div>
+                <div class="skills__content">
+                    <ol class="skills__group">
+                        <li class="skills__item">HTML & CSS</li>
+                        <li class="skills__item">JavaScript</li>
+                        <li class="skills__item">React</li>
+                        <li class="skills__item">Git & GitHub</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <h3 class="section__subtitle">
+                <span>Dịch vụ</span> của tôi
+            </h3>
+            <h2 class="section__title">
+                Những gì tôi làm
+            </h2>
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-layout-3-line services__icon"></i>
+                    <h2 class="services__title">Web Developer</h2>
+                    <p class="services__description">
+                        Phát triển các trang web tùy chỉnh.
+                        Sử dụng các công nghệ hiện tại và
+                        thư viện để tạo ra các trải nghiệm người dùng trên Internet.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pantone-line services__icon"></i>
+                    <h2 class="services__title">UI/UX Designer</h2>
+                    <p class="services__description">
+                        Cung cấp thiết kế giao diện web và
+                        ứng dụng di động,đảm bảo rằng người dùng có trải nghiệm thú vị
+                         và dễ sử dụng khi tương tác với sản phẩm hoặc trang web
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pen-nib-line services__icon"></i>
+                    <h2 class="services__title">Graphic Design</h2>
+                    <p class="services__description">
+                        Tạo các thiết kế theo yêu cầu của khách hàng,
+                         bao gồm thiết kế banner, poster, thiết kế số hóa, và nhiều loại thiết kế khác.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <h3 class="section__subtitle">
+                <span>Project</span> của tôi
+            </h3>
+            <h2 class="section__title">
+                Projects gần đây
+            </h2>
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <img src="./assest/img/survey.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">Survey System</h2>
+                        <a href="https://survey-g1yf.onrender.com/" class="projects__button">
+                            Xem demo <i class="ri-external-link-line"></i>
+                        </a>
+
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="./assest/img/UserAdminJPA.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">UserAdminJPA</h2>
+                        <a href="https://useradminjpa-zdp9oonm.b4a.run/" class="projects__button">
+                            Xem demo <i class="ri-external-link-line"></i>
+                        </a>
+
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="./assest/img/Cart.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">Shopping cart</h2>
+                        <a href="https://cartcd.azurewebsites.net/" class="projects__button">
+                            Xem demo <i class="ri-external-link-line"></i>
+                        </a>
+
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="./assest/img/email.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">Email</h2>
+                        <a href="https://email-r08g.onrender.com/" class="projects__button">
+                            Xem demo <i class="ri-external-link-line"></i>
+                        </a>
+
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="./assest/img/UserAdminJPA.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">EmailJPA</h2>
+                        <a href="https://emailjpa-b8gvgw8e.b4a.run/" class="projects__button">
+                            Xem demo <i class="ri-external-link-line"></i>
+                        </a>
+
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="./assest/img/sql.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+                        <h2 class="projects__title">SQL Gateway</h2>
+                        <a href="https://tuan7-sqlgateway.onrender.com/Tuan7_sqlGateway-1.0-SNAPSHOT/" class="projects__button">
+                            Xem demo <i class="ri-external-link-line"></i>
+                        </a>
+
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h3 class="section__subtitle">
+                Thông tin <span>liên hệ</span>
+            </h3>
+
+            <h2 class="section__title">
+                Liên hệ với tôi
+            </h2>
+
+            <div class="contact__container container grid">
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__group">
+                        <input type="text" name="first_name" required placeholder="Nhập tên của bạn" class="contact__input">
+                        <input type="text" name="last_name" required placeholder="Nhập họ của bạn" class="contact__input">
+                        <input type="email" name="user_email" required placeholder="Nhập email của bạn" class="contact__input">
+                    </div>
+
+                    <p class="contact__message" id="contact-message"></p>
+
+                    <button type="submit" class="button contact__button">
+                        Gửi tin nhắn
+                    </button>
+                </form>
+            </div>
+        </section>
+
+
+
+    </main>
+    <!--------------------------------------FOOTER----------------------------------------->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">
+                <span>Nawng </span>
+                </h1>
+                <h2 class="footer__education">
+                Front-end Developer
+                </h2>
+            </div>
+
+            <div class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-circle-line"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-line"></i>
+                </a>
+            </div>
+
+            <span class="footer__copy">
+               &#169; Copyright PhuocNanwg. All rights reserved
+            </span>
+        </div>
+
+    </footer>
+    <!--------------------------------------SCROLL UP----------------------------------------->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--------------------------------------SCROLL----------------------------------------->
+    <script src="./assest/js/scrollreveal.min.js"></script>
+    <!--------------------------------------MAILJS----------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--------------------------------------MAINJS----------------------------------------->
+    <script src="./assest/js/main.js"></script>
+</body>
+<script>
+    ScrollReveal().reveal('.section', {
+        distance: '50px',
+        duration: 1000,
+        delay: 100,
+        easing: 'ease-in-out',
+        reset: true
+    });
+</script>
+
+</html>
